@@ -38,17 +38,9 @@ site teleflix/
     └── series/
 ```
 
-## Como abrir localmente
+## Acesse o site
 
-A forma mais simples é abrir `index.html` no navegador.
-
-Para servir a pasta localmente com Python, abra um terminal na pasta do projeto e execute:
-
-```bash
-python -m http.server 8000
-```
-
-Depois, acesse [http://localhost:8000](http://localhost:8000).
+A versão publicada está ativa no GitHub Pages: [https://daniloabreudev.github.io/site-teleflix/](https://daniloabreudev.github.io/site-teleflix/).
 
 ## Personalização
 
