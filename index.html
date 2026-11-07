@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101010">
+  <meta name="description" content="Canais, filmes e séries com a Teleflix. Compare os planos a partir de R$ 34,99 e consulte a disponibilidade pelo WhatsApp.">
+  <title>Teleflix Canais | Planos de filmes, séries e canais</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="top-note">
+    <span class="ticker-label">CLIENTES TELEFLIX</span>
+    <div class="activity-window" aria-label="Clientes e planos adquiridos">
+      <div class="activity-runner">
+        <div class="activity-track" id="activity-track">
+          <span class="activity-item">José <b>•</b> adquiriu o plano bimestral</span>
+          <span class="activity-item">Carlos <b>•</b> adquiriu o plano anual</span>
+          <span class="activity-item">Mariana <b>•</b> adquiriu o plano mensal</span>
+          <span class="activity-item">Gustavo <b>•</b> adquiriu o plano mensal</span>
+          <span class="activity-item">Diego <b>•</b> adquiriu o plano anual</span>
+          <span class="activity-item">Maria <b>•</b> adquiriu o plano mensal</span>
+          <span class="activity-item">Célia <b>•</b> adquiriu o plano mensal</span>
+          <span class="activity-item">Elias <b>•</b> adquiriu o plano anual</span>
+          <span class="activity-item">Julia <b>•</b> adquiriu o plano mensal</span>
+          <span class="activity-item">Carina <b>•</b> adquiriu o plano mensal</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Teleflix Canais, início">
+        <img src="assets/teleflix-logo.jpeg" alt="Logo Teleflix">
+        <span>TELEFLIX <b>CANAIS</b></span>
+      </a>
+      <div class="header-actions">
+        <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+        <div class="message-center">
+          <button class="message-toggle" id="offer-toggle" type="button" aria-label="Abrir mensagem de teste grátis" aria-controls="offer-message" aria-expanded="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5h16v13H4zM4.5 6l7.5 6 7.5-6"/></svg>
+            <span class="message-badge" aria-hidden="true"></span>
+          </button>
+          <aside class="offer-message" id="offer-message" hidden aria-labelledby="offer-title">
+            <button class="offer-close" type="button" aria-label="Fechar mensagem">×</button>
+            <p class="offer-label">🎁 UM PRESENTE PARA VOCÊ</p>
+            <h2 id="offer-title">Você recebeu um teste grátis!</h2>
+            <p>Experimente a Teleflix sem compromisso. Se gostar, escolha seu plano sem fidelidade.</p>
+            <a class="button button-red offer-cta" href="https://wa.me/5514997895360?text=Ol%C3%A1%21%20Recebi%20o%20convite%20para%20um%20teste%20gr%C3%A1tis%20da%20Teleflix.%20Quero%20testar%20agora." target="_blank" rel="noopener">Testar agora <span aria-hidden="true">↗</span></a>
+          </aside>
+        </div>
+      </div>
+      <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+        <a href="#experiencia">Vantagens</a>
+        <a href="#destaques">Programação</a>
+        <a href="#planos">Planos e preços</a>
+        <a class="nav-cta" href="https://wa.me/5514997895360?text=Ol%C3%A1%2C%20quero%20conhecer%20a%20Teleflix%20Canais" target="_blank" rel="noopener">Tire suas dúvidas <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-shade"></div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-poster hero-poster--left"><img src="assets/filmes/exterminio-templo-dos-ossos.jpg" alt="" fetchpriority="high"></div>
+        <div class="hero-poster hero-poster--main"><img src="assets/filmes/o-drama.jpg" alt="" fetchpriority="high"></div>
+        <div class="hero-poster hero-poster--right"><img src="assets/filmes/ray-gunn.jpg" alt="" fetchpriority="high"></div>
+      </div>
+      <div class="container hero-content">
+        <p class="eyebrow"><span class="live-dot"></span> SUA PRÓXIMA SESSÃO COMEÇA AQUI</p>
+        <h1>Seu entretenimento<br><span>em um só lugar.</span></h1>
+        <p class="hero-copy">Experimente canais, filmes e séries no app Teleflix — grátis e sem compromisso. Se gostar, escolha seu plano: todos são sem fidelidade.</p>
+        <div class="hero-actions">
+          <a class="button button-red" href="#planos"><span aria-hidden="true">▶</span> Ver planos e preços</a>
+          <a class="button button-glass" href="https://wa.me/5514997895360?text=Ol%C3%A1%2C%20quero%20come%C3%A7ar%20meu%20teste%20gr%C3%A1tis%20sem%20compromisso%20na%20Teleflix" target="_blank" rel="noopener">Fazer teste grátis <span aria-hidden="true">↗</span></a>
+        </div>
+        <a class="starting-price" href="#planos"><span>Comece com o plano mensal</span><strong>R$ 34,99</strong><span>↘ ver opções</span></a>
+        <p class="hero-footnote">Sem fidelidade. Funciona em todos os dispositivos.</p>
+      </div>
+      <div class="hero-bottom-fade"></div>
+    </section>
+
+    <section class="benefits section" id="experiencia">
+      <div class="container">
+        <div class="section-title">
+          <p class="eyebrow">MAIS PRATICIDADE PARA ASSISTIR</p>
+          <h2>Escolha o que assistir. Aproveite o seu tempo.</h2>
+          <p>Veja as opções, escolha seu período e conte com atendimento para tirar suas dúvidas antes de começar.</p>
+        </div>
+        <div class="benefit-grid">
+          <article class="benefit-card"><span class="benefit-icon" aria-hidden="true">◉</span><h3>Reprodução mais estável</h3><p>O sistema antitravamento da Teleflix foi pensado para uma experiência mais fluida. A qualidade também depende da sua conexão.</p></article>
+          <article class="benefit-card"><span class="benefit-icon" aria-hidden="true">▣</span><h3>Ajuda quando precisar</h3><p>O suporte Teleflix atende 24 horas por dia, 7 dias por semana, pelo WhatsApp.</p></article>
+          <article class="benefit-card"><span class="benefit-icon" aria-hidden="true">✦</span><h3>Em todos os dispositivos</h3><p>Acesse a Teleflix nos seus dispositivos e aproveite canais, filmes e séries onde preferir.</p></article>
+        </div>
+        <p class="small-print">A reprodução depende da conexão, do aparelho e da disponibilidade do serviço. Consulte o catálogo e a compatibilidade com a equipe.</p>
+      </div>
+    </section>
+
+    <section class="catalog section" id="destaques">
+      <div class="container">
+        <div class="rail-heading">
+          <div><p class="eyebrow">ESCOLHA SEU PRÓXIMO PLAY</p><h2>Uma programação para cada momento.</h2><p class="subheading">As capas e logos abaixo são apenas uma amostra. O catálogo tem muito mais opções; consulte a equipe para confirmar a disponibilidade.</p></div>
+        </div>
+        <div class="media-shelf channels-shelf">
+          <div class="shelf-heading"><h3>Canais</h3><span class="content-total">Mais de 2 mil</span><div class="rail-controls"><button class="rail-arrow" type="button" data-scroll="left" aria-label="Rolar canais para a esquerda">←</button><button class="rail-arrow" type="button" data-scroll="right" aria-label="Rolar canais para a direita">→</button></div></div>
+          <div class="movie-rail" data-auto-scroll="true" data-scroll-duration="3000" tabindex="0" aria-label="Faixa rolável de canais">
+            <article class="channel-card"><img class="channel-logo" src="assets/canais/streaming.avif" alt="Logo de Plataforma de streaming" loading="lazy"><span>Streaming</span></article>
+            <article class="channel-card"><img class="channel-logo" src="assets/canais/max.webp" alt="Logo de Max" loading="lazy"><span>Max</span></article>
+            <article class="channel-card"><img class="channel-logo" src="assets/canais/discovery.png" alt="Logo de Discovery" loading="lazy"><span>Discovery</span></article>
+            <article class="channel-card"><img class="channel-logo" src="assets/canais/fox-sports.png" alt="Logo de Fox Sports" loading="lazy"><span>Fox Sports</span></article>
+            <article class="channel-card"><img class="channel-logo" src="assets/canais/record.jpeg" alt="Logo de Record TV" loading="lazy"><span>Record TV</span></article>
+            <article class="channel-card"><img class="channel-logo" src="assets/canais/sbt.webp" alt="Logo de SBT" loading="lazy"><span>SBT</span></article>
+            <article class="channel-card"><img class="channel-logo" src="assets/canais/globo.webp" alt="Logo de TV Globo" loading="lazy"><span>TV Globo</span></article>
+            <article class="channel-card"><img class="channel-logo" src="assets/canais/espn.png" alt="Logo de ESPN" loading="lazy"><span>ESPN</span></article>
+            <article class="channel-card"><img class="channel-logo" src="assets/canais/premiere.png" alt="Logo de Premiere" loading="lazy"><span>Premiere</span></article>
+            <article class="channel-card"><img class="channel-logo" src="assets/canais/globo-news.jpg" alt="Logo de GloboNews" loading="lazy"><span>GloboNews</span></article>
+            <article class="channel-card"><img class="channel-logo" src="assets/canais/caze-tv.webp" alt="Logo de CazéTV" loading="lazy"><span>CazéTV</span></article>
+            <article class="channel-card"><img class="channel-logo" src="assets/canais/hbo-max.png" alt="Logo de HBO Max" loading="lazy"><span>HBO Max</span></article>
+          </div>
+        </div>
+        <div class="media-shelf">
+          <div class="shelf-heading"><h3>Filmes</h3><span class="content-total">Mais de 30 mil</span><div class="rail-controls"><button class="rail-arrow" type="button" data-scroll="left" aria-label="Rolar filmes para a esquerda">←</button><button class="rail-arrow" type="button" data-scroll="right" aria-label="Rolar filmes para a direita">→</button></div></div>
+          <div class="movie-rail" data-auto-scroll="true" data-scroll-duration="3000" tabindex="0" aria-label="Faixa rolável de filmes">
+            <article class="movie-card has-poster"><img class="movie-poster" src="assets/filmes/o-drama.jpg" alt="Pôster de O Drama" loading="lazy"><span class="rank">01</span><div><span class="genre">FILME</span><h3>O Drama</h3></div></article>
+            <article class="movie-card has-poster"><img class="movie-poster" src="assets/filmes/exterminio-templo-dos-ossos.jpg" alt="Pôster de Extermínio: O Templo dos Ossos" loading="lazy"><span class="rank">02</span><div><span class="genre">FILME</span><h3>Extermínio: O Templo dos Ossos</h3></div></article>
+            <article class="movie-card has-poster"><img class="movie-poster" src="assets/filmes/devoradores-de-estrelas.jpg" alt="Pôster de Devoradores de Estrelas" loading="lazy"><span class="rank">03</span><div><span class="genre">FILME</span><h3>Devoradores de Estrelas</h3></div></article>
+            <article class="movie-card has-poster"><img class="movie-poster" src="assets/filmes/100-dias.jpg" alt="Pôster de 100 Dias" loading="lazy"><span class="rank">04</span><div><span class="genre">FILME</span><h3>100 Dias</h3></div></article>
+            <article class="movie-card has-poster"><img class="movie-poster" src="assets/filmes/ray-gunn.jpg" alt="Pôster de Ray Gunn" loading="lazy"><span class="rank">05</span><div><span class="genre">FILME</span><h3>Ray Gunn</h3></div></article>
+            <article class="movie-card has-poster"><img class="movie-poster" src="assets/filmes/ato-noturno.png" alt="Pôster de Ato Noturno" loading="lazy"><span class="rank">06</span><div><span class="genre">FILME</span><h3>Ato Noturno</h3></div></article>
+            <article class="movie-card has-poster"><img class="movie-poster" src="assets/filmes/o-bosque-selvagem.jpg" alt="Pôster de O Bosque Selvagem" loading="lazy"><span class="rank">07</span><div><span class="genre">FILME</span><h3>O Bosque Selvagem</h3></div></article>
+            <article class="movie-card has-poster"><img class="movie-poster" src="assets/filmes/digger.jpg" alt="Pôster de Digger" loading="lazy"><span class="rank">08</span><div><span class="genre">FILME</span><h3>Digger</h3></div></article>
+            <article class="movie-card has-poster"><img class="movie-poster" src="assets/filmes/obsessao.jpg" alt="Pôster de Obsessão" loading="lazy"><span class="rank">09</span><div><span class="genre">FILME</span><h3>Obsessão</h3></div></article>
+            <article class="movie-card has-poster"><img class="movie-poster" src="assets/filmes/homem-aranha-um-novo-dia.jpg" alt="Pôster de Homem-Aranha: Um Novo Dia" loading="lazy"><span class="rank">10</span><div><span class="genre">FILME</span><h3>Homem-Aranha: Um Novo Dia</h3></div></article>
+          </div>
+        </div>
+        <div class="media-shelf">
+          <div class="shelf-heading"><h3>Séries</h3><span class="content-total">Mais de 10 mil</span><div class="rail-controls"><button class="rail-arrow" type="button" data-scroll="left" aria-label="Rolar séries para a esquerda">←</button><button class="rail-arrow" type="button" data-scroll="right" aria-label="Rolar séries para a direita">→</button></div></div>
+          <div class="movie-rail" data-auto-scroll="true" data-scroll-duration="3000" tabindex="0" aria-label="Faixa rolável de séries">
+            <article class="series-card"><img class="series-poster" src="assets/series/slow-horses.jpg" alt="Pôster da série Slow Horses" loading="lazy"><div class="series-card-caption"><span>SÉRIE</span><h4>Slow Horses</h4></div></article>
+            <article class="series-card"><img class="series-poster" src="assets/series/blade-runner-2099.jpg" alt="Pôster da série Blade Runner 2099" loading="lazy"><div class="series-card-caption"><span>SÉRIE</span><h4>Blade Runner 2099</h4></div></article>
+            <article class="series-card"><img class="series-poster" src="assets/series/supernatural.jpg" alt="Pôster da série Supernatural" loading="lazy"><div class="series-card-caption"><span>SÉRIE</span><h4>Supernatural</h4></div></article>
+            <article class="series-card"><img class="series-poster" src="assets/series/dark.jpg" alt="Pôster da série Dark" loading="lazy"><div class="series-card-caption"><span>SÉRIE</span><h4>Dark</h4></div></article>
+            <article class="series-card"><img class="series-poster" src="assets/series/from-origem.jpg" alt="Pôster da série From, conhecida como Origem" loading="lazy"><div class="series-card-caption"><span>SÉRIE</span><h4>From (Origem)</h4></div></article>
+            <article class="series-card"><img class="series-poster" src="assets/series/walking-dead.jpg" alt="Pôster da série The Walking Dead" loading="lazy"><div class="series-card-caption"><span>SÉRIE</span><h4>The Walking Dead</h4></div></article>
+            <article class="series-card"><img class="series-poster" src="assets/series/breaking-bad.jpg" alt="Pôster da série Breaking Bad" loading="lazy"><div class="series-card-caption"><span>SÉRIE</span><h4>Breaking Bad</h4></div></article>
+            <article class="series-card"><img class="series-poster" src="assets/series/stranger-things.jpg" alt="Pôster da série Stranger Things" loading="lazy"><div class="series-card-caption"><span>SÉRIE</span><h4>Stranger Things</h4></div></article>
+            <article class="series-card"><img class="series-poster" src="assets/series/the-mentalist.jpg" alt="Pôster da série The Mentalist" loading="lazy"><div class="series-card-caption"><span>SÉRIE</span><h4>The Mentalist</h4></div></article>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="plans section" id="planos">
+      <div class="container">
+        <div class="section-title centered"><p class="eyebrow">ESCOLHA E FALE COM A GENTE</p><h2>O plano ideal para o seu ritmo.</h2><p>Todos os planos são sem fidelidade. Faça o teste grátis, sem compromisso, e escolha se quer continuar.</p></div>
+        <div class="plans-grid">
+          <article class="plan-card"><div class="plan-top"><span class="plan-tag">MENSAL</span><span class="plan-period">30 dias</span></div><p class="plan-name">Plano mensal</p><p class="price"><span>R$</span> 34,99</p><p class="plan-detail">Liberdade para renovar mês a mês</p><a class="button button-outline" href="https://wa.me/5514997895360?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20plano%20mensal%20da%20Teleflix" target="_blank" rel="noopener">Escolher este plano <span>↗</span></a></article>
+          <article class="plan-card"><div class="plan-top"><span class="plan-tag">2 MESES</span><span class="plan-period">60 dias</span></div><p class="plan-name">Plano bimestral</p><p class="old-price">De R$ 70,00</p><p class="price"><span>R$</span> 64,99</p><p class="plan-detail">Economize R$ 5,01 no total</p><a class="button button-outline" href="https://wa.me/5514997895360?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20plano%20de%202%20meses%20da%20Teleflix" target="_blank" rel="noopener">Escolher este plano <span>↗</span></a></article>
+          <article class="plan-card"><div class="plan-top"><span class="plan-tag">3 MESES</span><span class="plan-period">90 dias</span></div><p class="plan-name">Plano trimestral</p><p class="old-price">De R$ 105,00</p><p class="price"><span>R$</span> 89,99</p><p class="plan-detail">Economize R$ 15,01 no total</p><a class="button button-outline" href="https://wa.me/5514997895360?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20plano%20trimestral%20da%20Teleflix" target="_blank" rel="noopener">Escolher este plano <span>↗</span></a></article>
+          <article class="plan-card"><div class="plan-top"><span class="plan-tag">6 MESES</span><span class="plan-period">180 dias</span></div><p class="plan-name">Plano semestral</p><p class="old-price">De R$ 210,00</p><p class="price"><span>R$</span> 174,99</p><p class="plan-detail">Economize R$ 35,01 no total</p><a class="button button-outline" href="https://wa.me/5514997895360?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20plano%20semestral%20da%20Teleflix" target="_blank" rel="noopener">Escolher este plano <span>↗</span></a></article>
+          <article class="plan-card featured"><div class="popular-badge">MAIOR ECONOMIA</div><div class="plan-top"><span class="plan-tag">12 MESES</span><span class="plan-period">365 dias</span></div><p class="plan-name">Plano anual</p><p class="old-price">De R$ 420,00</p><p class="price"><span>R$</span> 339,99</p><p class="plan-detail">Economize R$ 80,01 no total</p><a class="button button-red" href="https://wa.me/5514997895360?text=Ol%C3%A1%2C%20tenho%20interesse%20no%20plano%20anual%20da%20Teleflix" target="_blank" rel="noopener">Escolher este plano <span>↗</span></a></article>
+        </div>
+        <p class="small-print centered">Fale com a equipe para confirmar disponibilidade, compatibilidade, formas de pagamento e condições atuais da oferta.</p>
+      </div>
+    </section>
+
+    <section class="faq section" id="duvidas">
+      <div class="container faq-grid">
+        <div class="section-title"><p class="eyebrow">ANTES DE ASSINAR</p><h2>Ficou com alguma dúvida?</h2><p>Converse com a equipe e confirme tudo o que precisa para escolher seu plano com segurança.</p><a class="button button-red" href="https://wa.me/5514997895360?text=Ol%C3%A1%2C%20quero%20ajuda%20para%20escolher%20meu%20plano%20Teleflix" target="_blank" rel="noopener">Conversar pelo WhatsApp ↗</a></div>
+        <div class="faq-list">
+          <details><summary>Qual plano combina mais comigo?</summary><p>O mensal dá mais flexibilidade. Nos períodos maiores, o valor promocional reduz o custo total. Compare os preços e fale com a equipe se quiser ajuda.</p></details>
+          <details><summary>Em quais dispositivos funciona?</summary><p>A Teleflix funciona em todos os dispositivos. Se precisar, fale com a equipe pelo WhatsApp para receber ajuda para começar.</p></details>
+          <details><summary>Os planos têm fidelidade?</summary><p>Não. Você escolhe o período do plano sem fidelidade.</p></details>
+          <details><summary>O teste grátis tem algum compromisso?</summary><p>Não. O teste é grátis e sem compromisso de contratação. Chame a equipe no WhatsApp para começar.</p></details>
+          <details><summary>Posso tirar dúvidas antes de contratar?</summary><p>Sim. O atendimento Teleflix funciona 24 horas por dia, 7 dias por semana, pelo WhatsApp (14) 99789-5360.</p></details>
+          <details><summary>Como faço para começar?</summary><p>Chame a equipe pelo WhatsApp e peça seu teste grátis, sem compromisso. Depois, se quiser continuar, escolha o plano que preferir — sem fidelidade.</p></details>
+        </div>
+      </div>
+    </section>
+  </main>
+<footer class="site-footer"><div class="container footer-row"><a class="brand footer-brand" href="#inicio"><img src="assets/teleflix-logo.jpeg" alt=""><span>TELEFLIX <b>CANAIS</b></span></a><p>© <span id="current-year"></span> Teleflix Canais. Todos os direitos reservados.</p><a href="#inicio">Voltar ao topo ↑</a></div><div class="container legal-note">Os conteúdos e marcas de terceiros, quando exibidos, devem contar com as devidas licenças e autorizações. Consulte a disponibilidade diretamente com o atendimento.</div></footer>
+  <a class="mobile-whatsapp" href="https://wa.me/5514997895360?text=Ol%C3%A1%2C%20quero%20fazer%20meu%20teste%20gr%C3%A1tis%20sem%20compromisso" target="_blank" rel="noopener"><span aria-hidden="true">◉</span>Fazer teste grátis</a>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
